@@ -10,6 +10,3 @@ After some comparisons that I did, I decided to use as final mapper the one so c
 Tolopolgical Assignment Improved with 1-most-used-qubit, in synthesis:
 - it takes the 1st most used qubit (the one which appears the most in two-qubits-operations cnot) and maps it before all the others, in a convenient position of the circuit. Such position is in one of the central and most connected positions of the given circuit.
 - it analyzes the DAG of the input circit and for each cnot operation, sequentially, it maps the control and the target qubits in a convenient position, if they haven't previously mapped.
-
-### The work
-You can find the entire repo of the project here: https://github.com/AlicePiemonti/emerging-computer-technologies-quantum-project/
